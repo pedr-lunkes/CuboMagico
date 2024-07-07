@@ -1,0 +1,1 @@
+g++ -o camera camera.cpp `pkg-config --cflags --libs opencv4` -O3 -march=native
